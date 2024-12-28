@@ -1,0 +1,45 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.db
+*.sqlite3
+*.log
+test.ipynb
+
+
+# Django
+*.log
+*.pot
+*.pyc
+*.pyo
+*.db
+*.sqlite3
+media/
+photos/
+static/
+
+# Virtual Environment
+.env/
+venv/
+ENV/
+env/
+
+
+
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# Local Django settings (don't commit settings.py)
+local_settings.py
+
+# Test / Coverage reports
+*.cover
+.coverage
+*.log
+nosetests.xml
+coverage.xml
+*.hypothesis/

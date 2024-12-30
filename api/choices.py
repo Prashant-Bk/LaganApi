@@ -20,6 +20,7 @@ class Occupation(models.TextChoices):
     PRIVATE = "private", "Private"
     BUSINESS = "business", "Business"
     OTHER = "other", "Other"
+    NONE = "None", "None"
 
 
 class MaritalStatus(models.TextChoices):

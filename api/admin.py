@@ -5,7 +5,7 @@ from .models import (
     SecondaryProfile,
     Lifestyle,
     Interests,
-    PartnerPreference,
+    PartnerPreferences,
 )
 
 
@@ -88,8 +88,8 @@ class InterestsAdmin(admin.ModelAdmin):
 
 
 # Registering Partner Preference model
-@admin.register(PartnerPreference)
-class PartnerPreferenceAdmin(admin.ModelAdmin):
+@admin.register(PartnerPreferences)
+class PartnerPreferencesAdmin(admin.ModelAdmin):
     list_display = (
         "user",
         "age_range",

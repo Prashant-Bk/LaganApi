@@ -236,7 +236,7 @@ class Interests(models.Model):
 
 
 # Partner Preference Model
-class PartnerPreference(models.Model):
+class PartnerPreferences(models.Model):
     user = models.OneToOneField(
         User, on_delete=models.CASCADE, related_name="partner_preference"
     )
